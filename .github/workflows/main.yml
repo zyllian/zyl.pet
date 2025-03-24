@@ -44,14 +44,14 @@ jobs:
       # Runs a single command using the runners shell
       - name: Build site
         run: |
-          webdog build --site site
+          webdog build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./site/build/"
+          path: "./build/"
 
   deploy:
     environment:
