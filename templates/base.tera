@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="referrer" content="no-referrer">
+	<link rel="stylesheet" href="/styles/index.css">
+</head>
+
+<body>
+	<h1><a href="/">zyl is pet</a></h1>
+	{% block precontent %}{% endblock precontent %}
+	<main class="page">
+		{% block content %}{{ page | safe }}{% endblock content %}
+	</main>
+	{% block postcontent %}{% endblock postcontent %}
+</body>
+
+</html>

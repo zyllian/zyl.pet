@@ -1,0 +1,10 @@
+base_url: https://zyl.pet/
+title: zyl is pet
+description: ''
+theme_color: '#ffc4fc'
+build: null
+sass_styles:
+- index.scss
+cdn_url: https://zyl.pet/
+code_theme: base16-ocean.dark
+resources: {}
