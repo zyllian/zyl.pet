@@ -39,7 +39,7 @@ jobs:
 
       - name: Install webdog
         run: |
-          cargo install webdog --no-default-features --force
+          cargo install webdog --no-default-features --force --locked
 
       # Runs a single command using the runners shell
       - name: Build site
